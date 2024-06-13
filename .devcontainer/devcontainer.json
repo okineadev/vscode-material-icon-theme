@@ -3,10 +3,6 @@
 
   // Use Microsoft's Ubuntu Base image for the dev container
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-  "features": {
-    // Use NodeJS features in the dev container
-    "ghcr.io/devcontainers/features/node:1": {}
-  },
 
   "privileged": true,
 
