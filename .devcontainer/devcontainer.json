@@ -11,6 +11,8 @@
   "privileged": true,
 
   "onCreateCommand": {
+    "install-bun": "curl -fsSL https://bun.sh/install | bash && source $HOME/.bashrc",
+
     // Install Bun dependencies in the dev container
     "install-node-packages": "bun install"
   },
