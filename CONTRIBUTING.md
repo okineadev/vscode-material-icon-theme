@@ -97,7 +97,7 @@ Now it often happens that many programming languages already have icons with the
 You can check if your icon fits the Material Design color palette by running the following command:
 
 ```sh
-npm run check-colors <path/to/svg>
+bun run check-colors <path/to/svg>
 ```
 
 Continue reading [here](#design-folder-icons) to find out about colors for the folder icons.

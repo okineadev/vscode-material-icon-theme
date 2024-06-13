@@ -11,8 +11,8 @@
   "privileged": true,
 
   "onCreateCommand": {
-    // Install NPM dependencies in the dev container
-    "install-node-packages": "npm install"
+    // Install Bun dependencies in the dev container
+    "install-node-packages": "bun install"
   },
 
   "customizations": {
